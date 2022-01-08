@@ -1,0 +1,4 @@
+{
+    "$class": "org.manual.MyRequest",
+    "input": "World"
+}

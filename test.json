@@ -1,0 +1,27 @@
+{
+  "$class": "org.manual.MyContract",
+  "Date": "2018-01-01T00:00:00.000+01:00",
+  "founder1": {
+    "$class": "org.manual.founder",
+    "name": "Karimu Bay",
+    "address": "test address 1",
+    "$identifier": "Karimu Bay"
+  },
+  "founder2": {
+    "$class": "org.manual.founder",
+    "name": "Tola Coker",
+    "address": "test address 1",
+    "$identifier": "Tola Coker"
+  },
+  "founder3": {
+    "$class": "org.manual.founder",
+    "name": "Amiee Sugar",
+    "address": "test address 1",
+    "$identifier": "Amiee Sugar"
+  },
+  "companyname": "High Table Limited",
+  "rcno": "1739328",
+  "companyaddress": "1 Karrimu Ikotun Lagos",
+  "contractId": "5f3f67d5-5217-427e-8d51-13c3bcd4aa24",
+  "$identifier": "5f3f67d5-5217-427e-8d51-13c3bcd4aa24"
+}

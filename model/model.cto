@@ -1,0 +1,35 @@
+namespace org.manual
+
+import org.accordproject.contract.* from https://models.accordproject.org/accordproject/contract.cto
+import org.accordproject.runtime.* from https://models.accordproject.org/accordproject/runtime.cto
+
+transaction MyRequest extends Request {
+  o String input
+}
+
+transaction MyResponse extends Response {
+  o String output
+}
+asset founder identified by name {
+o String name
+o String address
+}
+
+
+/**
+ * The model for the contract
+ */
+asset MyContract extends Contract {
+  /**
+   * The name for the contract
+   */
+  o DateTime Date 
+  o founder founder1
+  o founder founder2 
+  o founder founder3
+  o String companyname
+  o String rcno
+  o String companyaddress
+
+
+}
